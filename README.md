@@ -14,6 +14,8 @@ This repo contains backend projects using Node.js and Redis.
 * Node.js
 * Express.js
 * Redis
+* Morgan 
+* dotenv
 
 ## Redis Used For
 
