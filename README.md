@@ -4,31 +4,60 @@ This repo contains backend projects using Node.js and Redis.
 
 ## Projects
 
-- OTP Verification System (with TTL)
-- User API (check user exists in Redis)
-- Banner API (basic backend logic)
+* OTP Verification System (with TTL)
+* User API (check user exists in Redis)
+* Banner API (basic backend logic)
+* Email Queue System using Redis Lists
 
 ## Tech Stack
 
-- Node.js
-- Express.js
-- Redis
+* Node.js
+* Express.js
+* Redis
 
 ## Redis Used For
 
-- OTP storage with expiry
-- User caching
-- Fast data access
+* OTP storage with expiry
+* User caching
+* Fast data access
+* Email queue management
 
 ## Redis Commands Used
 
-- SET, GET, DEL
-- HSET, HGET, HEXISTS
-- EXPIRE
+### String Commands
+
+* SET
+* GET
+* DEL
+* EXPIRE
+
+### Hash Commands
+
+* HSET
+* HGET
+* HEXISTS
+
+### List Commands
+
+* LPUSH
+* RPUSH
+* LPOP
+* RPOP
+* LRANGE
+
+## Features
+
+* OTP Verification with TTL
+* Redis Hash Operations
+* Redis List Operations
+* Email Queue Processing
+* User Existence Check
+* Fast Data Retrieval
 
 ## Run Project
 
-npm install  
+npm install
+
 npm start
 
 ## Author
